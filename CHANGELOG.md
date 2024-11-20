@@ -1,3 +1,16 @@
+## [1.3.0](https://github.com/kricha/semantic-release-test/compare/v1.2.0...v1.3.0) (2024-11-20)
+
+### 🚀 Features
+
+* add user profile editing page ([069d525](https://github.com/kricha/semantic-release-test/commit/069d525942768e9a0a41205cc412f7202784d7f1))
+* implement search functionality with filters ([100b381](https://github.com/kricha/semantic-release-test/commit/100b3814382360f2a289652dc227d7847e95c09a))
+* introduce notifications for new messages ([48405d9](https://github.com/kricha/semantic-release-test/commit/48405d94e4a6a30f425d51cf775cc3cdf44b15d7))
+
+### 🐛 Bug Fixes
+
+* correct alignment issue in the footer section ([ebabe20](https://github.com/kricha/semantic-release-test/commit/ebabe20242d1dc339fd9f1290da4bc7654016be1))
+* prevent crash when uploading unsupported file types ([3a009ad](https://github.com/kricha/semantic-release-test/commit/3a009ad10958f18179bfe823a9e8a24a4b5a0112))
+
 ## [1.2.0](https://github.com/kricha/semantic-release-test/compare/v1.1.2...v1.2.0) (2024-11-20)
 
 ### 🚀 Features
