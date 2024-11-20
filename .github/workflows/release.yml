@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - master # or main
+      - main # or main
 
 permissions:
   contents: read # for checkout
@@ -41,6 +41,8 @@ jobs:
           ./release-prep.sh
           cat RELEASE_TAG
           cat RELEASE_NOTES
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

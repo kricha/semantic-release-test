@@ -1,6 +1,6 @@
 #/bin/sh
 if [[ -z "${GITHUB_TOKEN}" ]]; then
-  echo "GITHUB_TOKE not defined; Exit;"
+  echo "GITHUB_TOKEN not defined; Exit;"
   exit 1;
 fi
 
