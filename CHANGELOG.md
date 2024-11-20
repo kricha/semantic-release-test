@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/kricha/semantic-release-test/compare/v1.0.1...v1.1.0) (2024-11-20)
+
+### 🚀 Features
+
+* add new authentication feature ([acb14f4](https://github.com/kricha/semantic-release-test/commit/acb14f4aecea2ec44b7e0bdbad0c4a21b00e0b48))
+* add release notes generator script ([e7bd024](https://github.com/kricha/semantic-release-test/commit/e7bd02405023636ad1505554c48a364827e41a1d))
+
+### 🐛 Bug Fixes
+
+* resolve API issue ([f26418a](https://github.com/kricha/semantic-release-test/commit/f26418a89a7d571b1681a01d105ca6782eef4946))
+* update list of installed libs ([eff0017](https://github.com/kricha/semantic-release-test/commit/eff001740d00ffda6ba7e47d8ec8a8f54fc1973f))
+
 ## [1.0.1](https://github.com/kricha/semantic-release-test/compare/v1.0.0...v1.0.1) (2024-11-19)
 
 
