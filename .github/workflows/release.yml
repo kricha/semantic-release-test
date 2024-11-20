@@ -49,9 +49,11 @@ jobs:
         run: npx semantic-release
       - name: Rebase dev onto main
         run: |
-            git checkout dev
-            git rebase main
+          git config --global user.email "bot@seite.com"
+          git config --global user.name "Bot"
+          git checkout dev
+          git rebase main
 
       - name: Push rebased dev branch
         run: |
-            git push origin dev --force-with-lease
+          git push origin dev --force-with-lease
