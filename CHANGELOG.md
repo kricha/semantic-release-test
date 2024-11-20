@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/kricha/semantic-release-test/compare/v1.3.0...v1.3.1) (2024-11-20)
+
+### 🐛 Bug Fixes
+
+* update readme 3 ([#4](https://github.com/kricha/semantic-release-test/issues/4)) ([6bcf9c4](https://github.com/kricha/semantic-release-test/commit/6bcf9c4036ba57639e0a506b8d1b3554b919f978))
+
 ## [1.3.0](https://github.com/kricha/semantic-release-test/compare/v1.2.0...v1.3.0) (2024-11-20)
 
 ### 🚀 Features
