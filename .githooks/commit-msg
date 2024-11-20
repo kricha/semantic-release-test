@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Regular expression for commit message
+REGEX="^(feat|fix|docs|style|refactor|test|chore)(\([a-zA-Z0-9_-]+\))?: .{1,72}$"
+
+# Read the commit message
+COMMIT_MSG_FILE=$1
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
+
+# Check the commit message against the regex
+if ! echo "$COMMIT_MSG" | grep -Eq "$REGEX"; then
+    echo "ERROR: Commit message does not follow the convention:"
+    echo ""
+    echo "  <type>(<scope>): <description>"
+    echo ""
+    echo "  Example: feat(auth): add login feature"
+    echo ""
+    exit 1
+fi
