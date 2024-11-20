@@ -1,3 +1,17 @@
+## [1.2.0](https://github.com/kricha/semantic-release-test/compare/v1.1.2...v1.2.0) (2024-11-20)
+
+### 🚀 Features
+
+* add dark mode toggle for the user interface ([3871f35](https://github.com/kricha/semantic-release-test/commit/3871f35def66568c6a020b8837f8039c428bd67d))
+* add dark mode toggle for the user interface ([4d3c3b4](https://github.com/kricha/semantic-release-test/commit/4d3c3b4926b6488bf51371772847657f5f6a0ca9))
+
+### 🐛 Bug Fixes
+
+* correct typo in user notification email template ([1f02963](https://github.com/kricha/semantic-release-test/commit/1f02963e85fdbb63179274762b07468a9e9bd4d5))
+* correct typo in user notification email template ([61be425](https://github.com/kricha/semantic-release-test/commit/61be425001968ccaf3fcadc151d3684903de3e19))
+* resolve issue with login redirect loop ([c0808aa](https://github.com/kricha/semantic-release-test/commit/c0808aa490cada2ee81db9bad500c3689991eb1a))
+* resolve issue with login redirect loop ([f1294bd](https://github.com/kricha/semantic-release-test/commit/f1294bda71a370bad102a01dc95a1fb5786c8d92))
+
 ## [1.1.2](https://github.com/kricha/semantic-release-test/compare/v1.1.1...v1.1.2) (2024-11-20)
 
 ### 🐛 Bug Fixes
