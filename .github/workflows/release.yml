@@ -52,7 +52,7 @@ jobs:
           git config --global user.email "bot@seite.com"
           git config --global user.name "Bot"
           git checkout dev
-          git rebase main
+          git rebase --rebase-merges main
 
       - name: Push rebased dev branch
         run: |
