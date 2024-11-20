@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/kricha/semantic-release-test/compare/v1.1.0...v1.1.1) (2024-11-20)
+
+### 🐛 Bug Fixes
+
+* check autorebase ([6545fe2](https://github.com/kricha/semantic-release-test/commit/6545fe242a769b3451ce55577b4fce045c4bcb2f))
+
 ## [1.1.0](https://github.com/kricha/semantic-release-test/compare/v1.0.1...v1.1.0) (2024-11-20)
 
 ### 🚀 Features
