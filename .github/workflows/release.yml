@@ -47,3 +47,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
+      - name: Rebase dev onto main
+        run: |
+            git checkout dev
+            git rebase main
+
+      - name: Push rebased dev branch
+        run: |
+            git push origin dev --force-with-lease
